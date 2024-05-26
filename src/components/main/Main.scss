@@ -1,0 +1,82 @@
+.bg__img{
+    // background-image: url("../../app/assets/bg-img-1.png");
+    background: bisque;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 128px 0 192px 81px;
+    h3{
+    
+    }
+    h1{
+        margin: 24px 0 ;
+       max-width: 803px;
+    }
+    h4{
+        display: flex;
+        align-items: center;
+        margin: 0 3px ;
+        font-weight: 400;
+        h4{
+            color: #FFD050;
+        }
+    }
+    p{
+        margin-bottom: 24px 48px;
+        max-width: 599px;
+    }
+    button{
+        background: #FFD050;
+        padding: 16px 48px;
+        border: none;
+        font-weight: 700;
+    }
+}
+.category{
+    h1{
+        text-align: center;
+    }
+    .category__cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+        .category__card{
+            max-width: 250px;
+            padding: 32px;
+            border: 1px solid #6D6E76;
+            span{
+                width: 50px;
+                height: 50px;
+                border-radius: 30%;
+                position: absolute;
+                
+                img{
+                    position: relative;
+                    top: 9px;
+                    left: 12px;
+                    
+                }
+            }
+            
+            h1{
+                text-align: left;
+               padding-top:35px ;
+            }
+            p{
+    
+            }
+        }
+        .category__card:hover{
+            background: #FFD050;
+            color: #000000;
+            transition: 1s;
+            span{
+
+                background: #FBF6EA;
+                transition: 1s;
+            }
+         }
+    }
+
+}

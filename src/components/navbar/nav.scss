@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #232536;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+
+    .navbar__logo{
+        color: white;
+        margin-left: 10px ;
+    
+    }
+    .navbar__menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 70px;
+
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            a{
+                color: white;
+                text-decoration: none;
+                padding: 0.5rem 1rem;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+            }
+        }
+        .nav-btn button{
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: space-around;
+             align-items: center;
+             padding: 20px 48px;
+             margin: 10px;
+             cursor: pointer;
+             border: none;
+        }
+    }
+}
