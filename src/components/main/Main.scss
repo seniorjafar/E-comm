@@ -1,82 +1,206 @@
 .bg__img{
-    // background-image: url("../../app/assets/bg-img-1.png");
-    background: bisque;
+    background-image: url("../../app/assets/PromotionImages.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 128px 0 192px 81px;
-    h3{
-    
-    }
+    padding: 198px 0 122px 81px;
     h1{
-        margin: 24px 0 ;
-       max-width: 803px;
-    }
-    h4{
-        display: flex;
-        align-items: center;
-        margin: 0 3px ;
-        font-weight: 400;
-        h4{
-            color: #FFD050;
-        }
-    }
-    p{
-        margin-bottom: 24px 48px;
-        max-width: 599px;
-    }
-    button{
-        background: #FFD050;
-        padding: 16px 48px;
-        border: none;
-        font-weight: 700;
+       font-size: 54px;
+       color: white;
     }
 }
+
 .category{
-    h1{
-        text-align: center;
-    }
     .category__cards{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-    
-        .category__card{
-            max-width: 250px;
-            padding: 32px;
-            border: 1px solid #6D6E76;
-            span{
-                width: 50px;
-                height: 50px;
-                border-radius: 30%;
-                position: absolute;
+        justify-content: center;
+        border-radius: 8px;
+        position: absolute;
+        top: 100%;
+        left: 90px;
+        
+        .category__card1{
+            width: 380px ;
+            background-image: url("../../app/assets/product2.jpg");
+            background-size:cover;
+            background-position:center;
+            padding: 29px 20px 0 30px ;
+            .card__title{
+                display: flex;
+                justify-content: space-between;
                 
-                img{
-                    position: relative;
-                    top: 9px;
-                    left: 12px;
-                    
+                h1{
+                   font-size: 18px; 
+                }
+                h2{
+                    display: flex;
+                    color: #40bfff;
+                    font-size: 18px;
+                    big{
+                        align-items: end;
+                    }
                 }
             }
-            
-            h1{
-                text-align: left;
-               padding-top:35px ;
+            .card__img{
+                width: 200px;
+                height: 200px;
+                
             }
-            p{
-    
+            .card__money{
+                display: flex;
+                justify-content: space-between;
+                gap: 30px;
+                
+                div{
+                    display: flex;
+                    align-items: center;
+                    h4{
+                            color: #FB7181;
+                        }
+                    del{
+                        color: #9098B1;
+                        
+                    }
+                    
+                }
+                h2{
+                    display: flex;
+                    color: #40bfff;
+                    font-size: 18px;
+                    big{
+                        align-items: end;
+                    }
+                }
             }
         }
-        .category__card:hover{
-            background: #FFD050;
-            color: #000000;
-            transition: 1s;
-            span{
-
-                background: #FBF6EA;
-                transition: 1s;
+        .category__card2{
+            width: 380px ;
+            background-image: url("../../app/assets/product1.png");
+            background-size:cover;
+            background-position:center;
+            padding: 29px 20px 0 30px ;
+            .card__title{
+                display: flex;
+                justify-content: space-between;
+                
+                h1{
+                   font-size: 18px; 
+                }
+                h2{
+                    display: flex;
+                    color: #40bfff;
+                    font-size: 18px;
+                    big{
+                        align-items: end;
+                    }
+                }
             }
-         }
+            .card__img{
+                width: 200px;
+                height: 200px;
+                
+            }
+            .card__money{
+                display: flex;
+                justify-content: space-between;
+                gap: 30px;
+                
+                div{
+                    display: flex;
+                    align-items: center;
+                    h4{
+                            color: #FB7181;
+                        }
+                    del{
+                        color: #9098B1;
+                        
+                    }
+                    
+                }
+                h2{
+                    display: flex;
+                    color: #40bfff;
+                    font-size: 18px;
+                    big{
+                        align-items: end;
+                    }
+                }
+            }
+        }
+        .category__card3{
+            width: 380px ;
+            background-image: url("../../app/assets/product3.png");
+            background-size:cover;
+            background-position:center;
+            padding: 29px 20px 0 30px ;
+            .card__title{
+                display: flex;
+                justify-content: space-between;
+                
+                h1{
+                   font-size: 18px; 
+                }
+                h2{
+                    display: flex;
+                    color: #40bfff;
+                    font-size: 18px;
+                    big{
+                        align-items: end;
+                    }
+                }
+            }
+            .card__img{
+                width: 200px;
+                height: 200px;
+                
+            }
+            .card__money{
+                display: flex;
+                justify-content: space-between;
+                gap: 30px;
+                
+                div{
+                    display: flex;
+                    align-items: center;
+                    h4{
+                            color: #FB7181;
+                        }
+                    del{
+                        color: #9098B1;
+                        
+                    }
+                    
+                }
+                h2{
+                    display: flex;
+                    color: #40bfff;
+                    font-size: 18px;
+                    big{
+                        align-items: end;
+                    }
+                }
+            }
+        }
     }
 
+}
+.sellers{
+    margin-top: 300px;
+    span{
+        text-align: center;
+    }
+
+    .seller__all{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        li{
+            list-style: none;
+        }
+        .seller{
+  
+           
+        }
+    }
 }

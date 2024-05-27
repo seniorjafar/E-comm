@@ -1,57 +1,78 @@
 import React from 'react'
 import "./Main.scss"
-// import Image from 'next/image'
-// import CategoryImg1 from '@/app/assets/icon.png'
-// import CategoryImg2 from '@/app/assets/icon1.png'
-// import CategoryImg3 from '@/app/assets/icon2.png'
-// import CategoryImg4 from '@/app/assets/icon3.png'
-
+import Image from 'next/image'
+import ProductCard from '@/app/products/page.jsx';
 function Main() {
+ 
+
   return (
     <>
       <div>
         <div className='bg__img'>
-          <h3>Posted on startup</h3>
-          <h1>Step-by-step guide to choosing great font pairs</h1>
-          <h4>By <h4>James West</h4>  |  May 23, 2022 </h4>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-          <button>Read More </button>
+          <h1>Super Flash Sale <br /><br /> 50% Off</h1>
         </div>
         <section className='category'>
-          <h1>Choose A Catagory</h1>
           <div className='category__cards'>
-            <div className='category__card'>
-              <div>
-                <span>
-                  {/* <Image src={CategoryImg1} alt="img1" width={33} height={34} /> */}
-                </span>
-
+            <div className='category__card1'>
+              <div className='card__title'>
+                <h1>FS - QUILTED MAXI <br /> CROSS BAG</h1>
               </div>
-              <h1>Business</h1>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <div className='card__img'>
+                
+              </div>
+              <div className='card__money'>
+                <div>
+                  <del>$534,33</del>
+                  <h4 >24% Off</h4>
+                </div>
+                <h2>$2<big>99,43</big></h2>
+              </div>
             </div>
-            <div className='category__card'>
-              <span>
-                {/* <Image src={CategoryImg2} alt="img1" width={28} height={29} /> */}
-              </span>
-              <h1>Startup</h1>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <div className='category__card2'>
+              <div className='card__title'>
+                <h1>FS - QUILTED MAXI <br /> CROSS BAG</h1>
+                <h2>$2<big>99,43</big></h2>
+              </div>
+              <div className='card__img'>
+                
+              </div>
+              <div className='card__money'>
+                <div>
+                  <del>$534,33</del>
+                  <h4 >24% Off</h4>
+                </div>
+              </div>
             </div>
-            <div className='category__card'>
-              <span>
-                {/* <Image src={CategoryImg3} alt="img1" width={33} height={34} /> */}
-              </span>
-              <h1>Economy</h1>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <div className='category__card3'>
+              <div className='card__title'>
+                <h1>FS - QUILTED MAXI <br /> CROSS BAG</h1>
+              </div>
+              <div className='card__img'>
+                
+              </div>
+              <div className='card__money'>
+                <div>
+                  <del>$534,33</del>
+                  <h4 >24% Off</h4>
+                </div>
+                <h2>$2<big>99,43</big></h2>
+              </div>
             </div>
-            <div className='category__card'>
-              <span>
-                {/* <Image src={CategoryImg4} alt="img1" width={33} height={34} /> */}
-              </span>
-              <h1>Technology</h1>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </div>
+        </section>
+        <section>
+          <div className='sellers'>
+            <span><h1>BEST SELLER</h1></span>
+            <ul className='seller__all'>
+              <li>All</li>
+              <li>Bags</li>
+              <li>Sneakers</li>
+              <li>Belt</li>
+              <li>Sunglasses</li>
+            </ul>
+            <div className='seller'>
+              <ProductCard/>
             </div>
-            
           </div>
         </section>
       </div>

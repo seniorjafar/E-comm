@@ -1,13 +1,14 @@
 import Navbar from '@/components/navbar/page'
 import React from 'react'
+import "./Contact.scss"
 
-function About() {
+function Contact() {
   return (
     <>
     <Navbar/>
-      <div>About</div>
+      <div>Contact</div>
     </>
   )
 }
 
-export default About
+export default Contact

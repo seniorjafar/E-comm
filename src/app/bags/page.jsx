@@ -2,9 +2,9 @@
 import React from 'react'
 import Navbar from '@/components/navbar/page'
 
-import '@/app/blog/Blog.scss'
+import './Bags.scss'
 
-function Blog() {
+function Bags() {
   return (
     <>
     <Navbar/>
@@ -19,4 +19,4 @@ function Blog() {
   )
 }
 
-export default Blog
+export default Bags

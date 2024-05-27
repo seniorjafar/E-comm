@@ -1,13 +1,14 @@
 import Navbar from '@/components/navbar/page'
 import React from 'react'
+import "./Belt.scss"
 
-function Register() {
+function Belt() {
   return (
     <>
     <Navbar/>
-      <div>Register</div>
+      <div>Belt</div>
     </>
   )
 }
 
-export default Register
+export default Belt

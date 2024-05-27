@@ -1,14 +1,60 @@
+.topNav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px;
+    border-bottom: 1px solid #FAFAFB;
+    .money{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+    }
+    .linkImg{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         align-items: center;
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            gap: 30px;
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+           span{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            gap: 5px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            h3{
+                color: #262626;
+                font-weight: 400;
+            }
+           }
+        }
+    }
+}
+
+
 .navbar{
     display: flex;
     flex-wrap: wrap;
-    background-color: #232536;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
 
 
     .navbar__logo{
-        color: white;
         margin-left: 10px ;
     
     }
@@ -24,14 +70,19 @@
             flex-wrap: wrap;
             justify-content: space-around;
             align-items: center;
+            gap: 70px;
             list-style: none;
             a{
-                color: white;
+                color: #000;
                 text-decoration: none;
                 padding: 0.5rem 1rem;
-                border-radius: 5px;
+                font-size:x-large;
+                font-weight: 600;
                 cursor: pointer;
                 transition: all 0.2s ease-in-out;
+            }
+            a:hover{
+                color: #40BFFF;
             }
         }
         .nav-btn button{
