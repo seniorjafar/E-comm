@@ -13,6 +13,7 @@ const ProductList = () => {
   const [products, setProducts] = useState([]);
   const [error, setError] = useState(null);
 
+
   useEffect(() => {
     const fetchProducts = async () => {
       try {

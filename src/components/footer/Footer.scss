@@ -1,0 +1,40 @@
+.footer {
+  padding: 60px 0;
+  background-color: #BCDDFE;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .social {
+    color: black;
+  }
+  li, a {
+    color: #666666;
+    width: 222px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  & .title {
+    margin-bottom: .5rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    border-bottom: 1px solid #333;
+  }
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px;
+    border-bottom: 1px solid #FAFAFB;
+}
+
+@media screen and (max-width: 768px) {
+  .footer .col-sm-3 {
+    padding-bottom: 2rem;
+  }
+}

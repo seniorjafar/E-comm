@@ -1,8 +1,15 @@
-import React from 'react';
+"use client"
+import React, {useState}  from 'react';
 import "./Main.scss";
 import Products from '@/components/products/page';
 function Main() {
-  
+  const [displayedItems, setDisplayedItems] = useState(8);
+
+  // Function to load more items
+  const loadMoreItems = () => {
+    // Assuming you want to load 8 more items each time
+    setDisplayedItems(prevItems => prevItems + 8);
+  };
  
 
   return (
@@ -71,8 +78,8 @@ function Main() {
               <li>Sunglasses</li>
             </ul>
             <div className='seller'>
-             <Products/>
-              <button className='btn__lead'>LEAD MORE</button>
+             <Products displayedItems={displayedItems}/>
+              <button className='btn__lead' onClick={loadMoreItems}>LEAD MORE</button>
             </div>
           </div>
         </section>
