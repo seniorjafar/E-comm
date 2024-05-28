@@ -1,0 +1,83 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 34px;
+    .card{
+        width: 301px;
+        border: 1px solid #000;
+        .images{
+            .apiImg{
+              
+                background-color: #D4D4D4;
+                width: 300px;
+                height: 277px;
+            }
+            .hover{
+            position: relative;
+            bottom: 250px;
+            height: 219px;
+            display: none;
+            justify-content: center;
+            background-color: azure;
+            opacity: 1;
+            span{
+                display: flex;
+                justify-content: center;
+           
+            margin-top: 85px;
+            margin-bottom: -85px;
+            gap: 25px;
+            }
+        
+            }
+            .images :hover{
+                
+                .hover{
+                    display: flex;
+                }
+               
+            }
+            
+        }
+        
+        
+        .title{
+            padding:14px 25px;
+            h2{
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 27px;
+                letter-spacing: 0.5px;
+                text-align: center;
+    
+            }
+            .rate{
+                text-align: center;
+            }
+            .price{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+                h3{
+        
+                }
+                .dis{
+                    display: flex;
+                    align-items: center;
+                    h4{
+                            color: #FB7181;
+                        }
+                    del{
+                        color: #9098B1;
+                        
+                    }
+                }
+            }
+
+        }
+        
+    }
+
+}

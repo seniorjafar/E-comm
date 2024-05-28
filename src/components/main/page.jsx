@@ -1,8 +1,8 @@
-import React from 'react'
-import "./Main.scss"
-import Image from 'next/image'
-import ProductCard from '@/app/products/page.jsx';
+import React from 'react';
+import "./Main.scss";
+import Products from '@/components/products/page';
 function Main() {
+  
  
 
   return (
@@ -71,7 +71,8 @@ function Main() {
               <li>Sunglasses</li>
             </ul>
             <div className='seller'>
-              <ProductCard/>
+             <Products/>
+              <button className='btn__lead'>LEAD MORE</button>
             </div>
           </div>
         </section>
